@@ -20,4 +20,16 @@ export class vehicle{
 
 } // end of the class object
 
+export class vehicle{
+    constructor(make)  {
+        this.make = make;
+    }
+
+    toString() {
+        return `vehicle make: ~${this.make}`
+    }
+}
+
+
+
 
